@@ -31,23 +31,21 @@ The workflow integrates data processing, predictive analytics, and visualization
 
 # 🔄 Project Workflow
 
-```text
-Dataset
-   ↓
-SQL Server Data Cleaning & Analysis
-   ↓
-Created Staging and Production Tables
-   ↓
-Created SQL Views for Reporting
-   ↓
-Exported Processed Data
-   ↓
-Machine Learning Model Development
-   ↓
-Generated Churn Predictions
-   ↓
+Dataset  
+↓  
+SQL Server Data Cleaning & Analysis  
+↓  
+Created Staging and Production Tables  
+↓  
+Created SQL Views for Reporting  
+↓  
+Exported Processed Data  
+↓  
+Machine Learning Model Development  
+↓  
+Generated Churn Predictions  
+↓  
 Power BI Dashboard Visualization
-```
 
 ---
 
@@ -65,8 +63,8 @@ Power BI Dashboard Visualization
 
 ## Created SQL Views
 
-- `vw_ChurnData`
-- `vw_JoinData`
+- vw_ChurnData
+- vw_JoinData
 
 ---
 
@@ -88,13 +86,11 @@ Power BI Dashboard Visualization
 
 ## 📈 Model Performance
 
-- Accuracy: Approximately **85%**
+- Accuracy: Approximately 85%
 
 ## 💾 Saved Model
 
-```text
-churn_model.pkl
-```
+- churn_model.pkl
 
 ---
 
@@ -126,18 +122,16 @@ churn_model.pkl
 
 # 📂 Project Structure
 
-```text
 Telecom-Customer-Churn-Project/
-│
-├── data/
-├── sql/
-├── notebooks/
-├── model/
-├── powerbi/
-├── dashboard_images/
-├── README.md
-└── requirements.txt
-```
+
+- data/
+- sql/
+- notebooks/
+- model/
+- powerbi/
+- dashboard_images/
+- README.md
+- requirements.txt
 
 ---
 
