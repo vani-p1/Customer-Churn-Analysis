@@ -2,9 +2,17 @@
 
 ## 📌 Project Overview
 
-This project focuses on analyzing customer churn behavior in the telecom industry using SQL Server, Power BI, and Machine Learning. The project combines data cleaning, business intelligence, predictive analytics, and dashboard visualization to identify customer churn patterns and predict customers who are likely to leave the service.
+This project focuses on analyzing customer churn behavior in the telecom industry using SQL Server, Power BI, and Machine Learning.
 
-The workflow includes SQL-based data processing, machine learning model development in Python, and interactive Power BI dashboards for business insights and prediction analysis.
+The project combines:
+
+- SQL-based data cleaning and analysis
+- Machine Learning churn prediction
+- Interactive Power BI dashboards
+- Business intelligence reporting
+
+The workflow integrates data processing, predictive analytics, and visualization to identify churn patterns and predict customers who are likely to leave the service.
+
 ---
 
 # 🛠️ Tools & Technologies Used
@@ -39,10 +47,14 @@ Machine Learning Model Development
 Generated Churn Predictions
    ↓
 Power BI Dashboard Visualization
+```
 
-🗄️ SQL Analysis
+---
 
-Performed:
+# 🗄️ SQL Analysis
+
+## Performed
+
 - Data exploration
 - Data cleaning
 - NULL handling using ISNULL
@@ -51,17 +63,20 @@ Performed:
 - Distribution analysis
 - SQL view creation for reporting
 
-Created SQL Views
+## Created SQL Views
 
-- vw_ChurnData
-- vw_JoinData
+- `vw_ChurnData`
+- `vw_JoinData`
 
-🤖 Machine Learning
+---
 
-✅ Model Used
+# 🤖 Machine Learning
+
+## ✅ Model Used
+
 - Random Forest Classifier
 
-⚙️ ML Workflow
+## ⚙️ ML Workflow
 
 - Data preprocessing
 - Feature encoding
@@ -71,36 +86,47 @@ Created SQL Views
 - Model evaluation
 - Model saving using Joblib
 
-📈 Model Performance
-- Accuracy: Approximately 85%
+## 📈 Model Performance
 
-Saved Model
+- Accuracy: Approximately **85%**
 
+## 💾 Saved Model
+
+```text
 churn_model.pkl
+```
 
-📊 Power BI Dashboards
+---
 
-📌 Summary Dashboard
+# 📊 Power BI Dashboards
+
+## 📌 Summary Dashboard
+
 - Customer overview
 - Churn rate analysis
 - Revenue insights
 - Demographic analysis
 - Contract and payment analysis
 
-📌 Churn Analysis Dashboard
+## 📌 Churn Analysis Dashboard
+
 - Churn categories
 - Churn reasons
 - Competitor analysis
 - Service dissatisfaction analysis
 
-📌 Prediction Dashboard
+## 📌 Prediction Dashboard
+
 - Predicted churn customers
 - High-risk customer analysis
 - State-wise prediction analysis
 - Customer prediction insights
 
-📂 Project Structure
+---
 
+# 📂 Project Structure
+
+```text
 Telecom-Customer-Churn-Project/
 │
 ├── data/
@@ -111,8 +137,11 @@ Telecom-Customer-Churn-Project/
 ├── dashboard_images/
 ├── README.md
 └── requirements.txt
+```
 
-⭐ Key Features
+---
+
+# ⭐ Key Features
 
 - End-to-end customer churn analytics project
 - SQL-based data processing and reporting
@@ -121,9 +150,12 @@ Telecom-Customer-Churn-Project/
 - Integrated analytics workflow
 - Business insight generation
 
-📬 Contact
+---
+
+# 📬 Contact
 
 Vani P
 
-GitHub: https://github.com/vani-p1 
-LinkedIn: www.linkedin.com/in/vani--p
+ GitHub: (https://github.com/vani-p1)
+
+ LinkedIn: (https://www.linkedin.com/in/vani--p)
