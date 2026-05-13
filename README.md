@@ -2,13 +2,14 @@
 
 ## 📌 Project Overview
 
-This project focuses on analyzing customer churn behavior in the telecom industry using SQL Server, Power BI, and Machine Learning.
+This project focuses on analyzing customer churn behavior in the telecom industry using SQL Server, Power BI, and Machine Learning, and Flask.
 
 The project combines:
 
 - SQL-based data cleaning and analysis
 - Machine Learning churn prediction
 - Interactive Power BI dashboards
+- Flask-based real-time prediction system
 - Business intelligence reporting
 
 The workflow integrates data processing, predictive analytics, and visualization to identify churn patterns and predict customers who are likely to leave the service.
@@ -21,6 +22,7 @@ The workflow integrates data processing, predictive analytics, and visualization
 - SQL Server Management Studio (SSMS)
 - Power BI
 - Python
+- Flask
 - Jupyter Notebook
 - Pandas
 - NumPy
@@ -45,6 +47,8 @@ Machine Learning Model Development
 ↓  
 Generated Churn Predictions  
 ↓  
+Generated Real-Time Predictions Using Flask Web Application
+↓
 Power BI Dashboard Visualization
 
 ---
@@ -118,6 +122,17 @@ Power BI Dashboard Visualization
 - State-wise prediction analysis
 - Customer prediction insights
 
+# 🌐 Flask Web Application
+
+A Flask-based web application was developed for real-time customer churn prediction using the trained Machine Learning model.
+
+## Features
+
+- Real-time churn prediction
+- Interactive landing page UI
+- ML model integration using Flask
+- User input-based prediction system
+
 ---
 
 # 📂 Project Structure
@@ -129,6 +144,8 @@ Telecom-Customer-Churn-Project/
 - notebooks/
 - model/
 - powerbi/
+- app.py
+- templates/
 - dashboard_images/
 - README.md
 - requirements.txt
